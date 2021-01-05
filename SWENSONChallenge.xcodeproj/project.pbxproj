@@ -56,15 +56,47 @@
 		875D994D25A51B3100D75686 /* SWENSONChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				875D994E25A51B3100D75686 /* AppDelegate.swift */,
-				875D995025A51B3100D75686 /* SceneDelegate.swift */,
-				875D995225A51B3100D75686 /* ViewController.swift */,
-				875D995425A51B3100D75686 /* Main.storyboard */,
-				875D995725A51B4200D75686 /* Assets.xcassets */,
-				875D995925A51B4200D75686 /* LaunchScreen.storyboard */,
-				875D995C25A51B4200D75686 /* Info.plist */,
+				875D996525A528D200D75686 /* Delegates */,
+				875D996725A528DC00D75686 /* ViewControllers */,
+				875D996325A528C000D75686 /* Storyboards */,
+				875D996825A528E900D75686 /* SupportingFiles */,
 			);
 			path = SWENSONChallenge;
+			sourceTree = "<group>";
+		};
+		875D996325A528C000D75686 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				875D995425A51B3100D75686 /* Main.storyboard */,
+				875D995925A51B4200D75686 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		875D996525A528D200D75686 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				875D994E25A51B3100D75686 /* AppDelegate.swift */,
+				875D995025A51B3100D75686 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		875D996725A528DC00D75686 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				875D995225A51B3100D75686 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		875D996825A528E900D75686 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				875D995725A51B4200D75686 /* Assets.xcassets */,
+				875D995C25A51B4200D75686 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
