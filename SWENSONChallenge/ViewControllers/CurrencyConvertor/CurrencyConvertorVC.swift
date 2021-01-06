@@ -76,6 +76,7 @@ class CurrencyConvertorVC: UIViewController {
                 self?.tbvRates.isHidden = true
                 if message.isEmpty == false {
                     // show alert with message
+                    self?.PresentErrorWithMessage(message: message)
                 }
             }
 
