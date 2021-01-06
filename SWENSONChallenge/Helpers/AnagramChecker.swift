@@ -4,7 +4,6 @@
 //
 //  Created by Nariman Khaled on 1/6/21.
 //
-
 import Foundation
 
 class AnagramChecker {

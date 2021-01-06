@@ -17,35 +17,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="M8M-nh-xqR">
-                                <rect key="frame" x="0.0" y="108" width="414" height="754"/>
+                                <rect key="frame" x="24" y="108" width="390" height="150"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-a4-q9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="377"/>
-                                        <state key="normal" title="Anagram Checker "/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-a4-q9b">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <state key="normal" title="Anagram Checker ">
+                                            <color key="titleColor" red="0.027450980390000001" green="0.32549019610000002" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <segue destination="dFI-g9-sn6" kind="presentation" id="XdV-QF-gIp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnz-Ma-bZf">
-                                        <rect key="frame" x="0.0" y="377" width="414" height="377"/>
-                                        <state key="normal" title="Currency Convertor"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSm-ij-eS3">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.027450980390000001" green="0.32549019610000002" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnz-Ma-bZf">
+                                        <rect key="frame" x="0.0" y="100" width="390" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                        <state key="normal" title="Currency Convertor">
+                                            <color key="titleColor" red="0.027450980390000001" green="0.32549019610000002" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <segue destination="Jdr-wV-EuW" kind="show" id="jhC-7P-iwn"/>
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Gz6-Gx-kzs"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M8M-nh-xqR" secondAttribute="bottom" id="PYg-9T-BMV"/>
-                            <constraint firstItem="M8M-nh-xqR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cpw-dH-N1E"/>
+                            <constraint firstItem="M8M-nh-xqR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="cpw-dH-N1E"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M8M-nh-xqR" secondAttribute="trailing" id="ef8-Kb-b8Q"/>
                             <constraint firstItem="M8M-nh-xqR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="xcS-Kp-jEc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" largeTitleDisplayMode="always" id="bhj-k0-zLT"/>
+                    <connections>
+                        <outlet property="btnGenerator" destination="RSm-ij-eS3" id="0mx-uA-NwL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
