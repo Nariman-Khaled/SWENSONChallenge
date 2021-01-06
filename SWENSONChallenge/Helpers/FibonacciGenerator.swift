@@ -10,7 +10,7 @@ import Foundation
 class FibonacciGenerator {
     
     static func GenerateFibonacciValueFor(number : Int , UseIterative : Bool = true ) -> (Result :  Int , Message :  String) {
-        if number < 91 {
+        if number <= 91 {
             let result = UseIterative ? iterativeFibonacci(number) : recursiveFibonacci(n : number)
             return ( result , "")
         }
@@ -21,6 +21,9 @@ class FibonacciGenerator {
 
     static func iterativeFibonacci(_ n: Int) -> Int {
         var fibs: [Int] = [0, 1]
+        if (n < 2 ) {
+            return n
+        }
         (2...n).forEach { i in
             fibs.append(fibs[i - 1] + fibs[i - 2])
         }

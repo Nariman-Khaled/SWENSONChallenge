@@ -17,6 +17,7 @@
 "user input title" = "F(N) FOR N= ";
 "Generate" = "Generate";
 "Result" = "Result";
+"Required input" = "Input field can't be empty";
 
 //Error Messages
 "limit exceeded" = "input number can't exceed 91";

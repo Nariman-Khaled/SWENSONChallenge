@@ -24,6 +24,11 @@ extension UIViewController {
         return instantiateFromNib()
     }
     
+    
+    func PresentErrorWithMessage(message : String) {
+        presentAlertWithTitle(title: NSLocalizedString("Error", comment: ""), message: message  , options: .gotIt, completion: { (_) in})
+    }
+    
     func presentAlertWithTitle(title: String, message: String, options: AlertOptionType..., completion: @escaping (AlertOptionType) -> Void) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         for option in options {

@@ -40,29 +40,47 @@ class FibonacciGeneratorVC: UIViewController {
     }
     
     @IBAction func GenerateValue(_ sender: Any) {
-        if let number  = txtUserInput.text {
+        
+         
+        if let number  = txtUserInput.text , number.isEmpty == false {
             
             let num = Int(number) ?? 0
+            //
+            GenerateFibonacciAndDisplayResult(number: num)
+            //For test usage , method is created to calculate the Fibonacci number with both iterative and recursive approaches
+            GenerateBothFibonacciInternallyWithBenchmarking(number: num)
             
-            let result = FibonacciGenerator.GenerateFibonacciValueFor(number :  num)
-            if result.Message.isEmpty {
-            lblResult.text = "\(result.Result)"
-            }
-            else{
-                self.presentAlertWithTitle(title: NSLocalizedString("Error", comment: ""), message: result.Message  , options: .gotIt, completion: { (_) in})
-            }
-            
-            FibonacciGenerator.benchmark {
-                 print()
-                print("fib iterative: \(FibonacciGenerator.GenerateFibonacciValueFor(number :  num))")
-            }
-            
-            FibonacciGenerator.benchmark {
-                print()
-                print("fib Recursive: \(FibonacciGenerator.GenerateFibonacciValueFor(number:num , UseIterative : false))")
-            }
+        }
+        else {
+            lblResult.text =  "-"
+            PresentErrorWithMessage( message: NSLocalizedString("Required input", comment: ""))
         }
         
+    }
+    
+    func GenerateFibonacciAndDisplayResult(number : Int){
+        let result = FibonacciGenerator.GenerateFibonacciValueFor(number :  number , UseIterative: false)
+        if result.Message.isEmpty {
+            lblResult.text = "\(result.Result)"
+        }
+        else{
+            lblResult.text =  "-"
+            PresentErrorWithMessage( message: result.Message )
+        }
+    }
+    
+    
+    
+    func GenerateBothFibonacciInternallyWithBenchmarking(number : Int){
+        FibonacciGenerator.benchmark {
+            print()
+            print(" iterative  Fibonacci : \(FibonacciGenerator.GenerateFibonacciValueFor(number :  number).Result)")
+        }
+        
+        FibonacciGenerator.benchmark {
+            print()
+            print(" Recursive Fibonacci: \(FibonacciGenerator.GenerateFibonacciValueFor(number:number , UseIterative : false).Result)")
+        }
     }
     
     
