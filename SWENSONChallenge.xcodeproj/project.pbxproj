@@ -13,6 +13,8 @@
 		875D995625A51B3100D75686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995425A51B3100D75686 /* Main.storyboard */; };
 		875D995825A51B4200D75686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D995725A51B4200D75686 /* Assets.xcassets */; };
 		875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995925A51B4200D75686 /* LaunchScreen.storyboard */; };
+		875D997C25A5449C00D75686 /* FibonacciGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */; };
+		875D997D25A5449C00D75686 /* FibonacciGeneratorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		875D995725A51B4200D75686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875D995A25A51B4200D75686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875D995C25A51B4200D75686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciGeneratorVC.swift; sourceTree = "<group>"; };
+		875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FibonacciGeneratorVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		875D994D25A51B3100D75686 /* SWENSONChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				875D997825A5442800D75686 /* Xibs */,
 				875D996B25A529BE00D75686 /* Models */,
 				875D996525A528D200D75686 /* Delegates */,
 				875D996725A528DC00D75686 /* ViewControllers */,
@@ -86,6 +91,7 @@
 		875D996725A528DC00D75686 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				875D997925A5443300D75686 /* Fibonacci generator */,
 				875D996925A529A500D75686 /* MainScreen */,
 			);
 			path = ViewControllers;
@@ -113,6 +119,22 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		875D997825A5442800D75686 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		875D997925A5443300D75686 /* Fibonacci generator */ = {
+			isa = PBXGroup;
+			children = (
+				875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */,
+			);
+			path = "Fibonacci generator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +197,7 @@
 				875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */,
 				875D995825A51B4200D75686 /* Assets.xcassets in Resources */,
 				875D995625A51B3100D75686 /* Main.storyboard in Resources */,
+				875D997D25A5449C00D75686 /* FibonacciGeneratorVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +211,7 @@
 				875D995325A51B3100D75686 /* ViewController.swift in Sources */,
 				875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */,
 				875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */,
+				875D997C25A5449C00D75686 /* FibonacciGeneratorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

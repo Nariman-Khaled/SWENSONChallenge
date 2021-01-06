@@ -21,7 +21,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-a4-q9b">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="754"/>
-                                        <state key="normal" title="Anagram Checker "/>
+                                        <state key="normal" title="Fibonacci generator"/>
                                         <connections>
                                             <segue destination="dFI-g9-sn6" kind="presentation" id="XdV-QF-gIp"/>
                                         </connections>
