@@ -13,6 +13,8 @@
 		875D995625A51B3100D75686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995425A51B3100D75686 /* Main.storyboard */; };
 		875D995825A51B4200D75686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D995725A51B4200D75686 /* Assets.xcassets */; };
 		875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995925A51B4200D75686 /* LaunchScreen.storyboard */; };
+		875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */; };
+		875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D997225A52EBF00D75686 /* AnagramChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		875D995725A51B4200D75686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875D995A25A51B4200D75686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875D995C25A51B4200D75686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramCheckerVC.swift; sourceTree = "<group>"; };
+		875D997225A52EBF00D75686 /* AnagramChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		875D994D25A51B3100D75686 /* SWENSONChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				875D997125A52D2200D75686 /* Helpers */,
 				875D996B25A529BE00D75686 /* Models */,
 				875D996525A528D200D75686 /* Delegates */,
 				875D996725A528DC00D75686 /* ViewControllers */,
@@ -86,6 +91,7 @@
 		875D996725A528DC00D75686 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				875D996C25A52B8800D75686 /* Anagram Checker */,
 				875D996925A529A500D75686 /* MainScreen */,
 			);
 			path = ViewControllers;
@@ -113,6 +119,22 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		875D996C25A52B8800D75686 /* Anagram Checker */ = {
+			isa = PBXGroup;
+			children = (
+				875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */,
+			);
+			path = "Anagram Checker";
+			sourceTree = "<group>";
+		};
+		875D997125A52D2200D75686 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				875D997225A52EBF00D75686 /* AnagramChecker.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +209,8 @@
 			files = (
 				875D995325A51B3100D75686 /* ViewController.swift in Sources */,
 				875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */,
+				875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */,
+				875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */,
 				875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SWENSONChallenge/Info.plist;
+				INFOPLIST_FILE = SWENSONChallenge/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,7 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SWENSONChallenge/Info.plist;
+				INFOPLIST_FILE = SWENSONChallenge/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
