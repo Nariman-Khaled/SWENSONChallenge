@@ -1,0 +1,13 @@
+/* 
+  Localized.strings
+  SWENSONChallenge
+
+  Created by Nariman Khaled on 1/6/21.
+  
+*/
+
+//Calculator screen
+"Header" = "Convert Currency";
+
+//base selection screen
+"base selection header" = "select base currency";
