@@ -6,6 +6,8 @@ target 'SWENSONChallenge' do
   use_frameworks!
 
   # Pods for SWENSONChallenge
-  pod 'EzPopup'
-
+  pod 'Alamofire', '~> 5.2'
+  pod 'FlagKit'
+  pod 'FSnapChatLoading'
 end
+
