@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54F77AE3ED1F550AE063FDA6 /* Pods_SWENSONChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D167D5483A58F930D231CFA0 /* Pods_SWENSONChallenge.framework */; };
 		875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D994E25A51B3100D75686 /* AppDelegate.swift */; };
 		875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D995025A51B3100D75686 /* SceneDelegate.swift */; };
 		875D995325A51B3100D75686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D995225A51B3100D75686 /* ViewController.swift */; };
 		875D995625A51B3100D75686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995425A51B3100D75686 /* Main.storyboard */; };
 		875D995825A51B4200D75686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D995725A51B4200D75686 /* Assets.xcassets */; };
 		875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995925A51B4200D75686 /* LaunchScreen.storyboard */; };
+		87F4420325A5DB2300D6C927 /* CurrencyConvertorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4420225A5DB2300D6C927 /* CurrencyConvertorVC.swift */; };
+		87F4420C25A5E51D00D6C927 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4420B25A5E51D00D6C927 /* APIManager.swift */; };
+		87F4421225A5E55400D6C927 /* CurrencyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F4421125A5E55400D6C927 /* CurrencyStoryboard.storyboard */; };
+		87F4421525A5E70200D6C927 /* CurrencyRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4421425A5E70200D6C927 /* CurrencyRateModel.swift */; };
+		87F4421825A5E8C500D6C927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4421725A5E8C500D6C927 /* Constants.swift */; };
+		87F4424A25A5F24000D6C927 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4424925A5F24000D6C927 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07EFEBA36695DDF9FD5BFC03 /* Pods-SWENSONChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWENSONChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		52204A3A8EB0FA15A1E6E590 /* Pods-SWENSONChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWENSONChallenge.release.xcconfig"; path = "Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		875D994B25A51B3100D75686 /* SWENSONChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWENSONChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875D994E25A51B3100D75686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875D995025A51B3100D75686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		875D995725A51B4200D75686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875D995A25A51B4200D75686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875D995C25A51B4200D75686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F4420225A5DB2300D6C927 /* CurrencyConvertorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvertorVC.swift; sourceTree = "<group>"; };
+		87F4420B25A5E51D00D6C927 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		87F4421125A5E55400D6C927 /* CurrencyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrencyStoryboard.storyboard; sourceTree = "<group>"; };
+		87F4421425A5E70200D6C927 /* CurrencyRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRateModel.swift; sourceTree = "<group>"; };
+		87F4421725A5E8C500D6C927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = SWENSONChallenge/Common/Constants.swift; sourceTree = SOURCE_ROOT; };
+		87F4424925A5F24000D6C927 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		D167D5483A58F930D231CFA0 /* Pods_SWENSONChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWENSONChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F77AE3ED1F550AE063FDA6 /* Pods_SWENSONChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C685D3B37F22D06CF8C1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D167D5483A58F930D231CFA0 /* Pods_SWENSONChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		875D994225A51B3100D75686 = {
 			isa = PBXGroup;
 			children = (
 				875D994D25A51B3100D75686 /* SWENSONChallenge */,
 				875D994C25A51B3100D75686 /* Products */,
+				A6AEF4A50B13ED8854321898 /* Pods */,
+				18C685D3B37F22D06CF8C1D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +88,9 @@
 				875D996725A528DC00D75686 /* ViewControllers */,
 				875D996325A528C000D75686 /* Storyboards */,
 				875D996825A528E900D75686 /* SupportingFiles */,
+				87F4424725A5EE8600D6C927 /* Common */,
+				87F4420E25A5E52100D6C927 /* Managers */,
+				87F4424C25A5F24B00D6C927 /* Extensions */,
 			);
 			path = SWENSONChallenge;
 			sourceTree = "<group>";
@@ -70,6 +100,7 @@
 			children = (
 				875D995425A51B3100D75686 /* Main.storyboard */,
 				875D995925A51B4200D75686 /* LaunchScreen.storyboard */,
+				87F4421125A5E55400D6C927 /* CurrencyStoryboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -87,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				875D996925A529A500D75686 /* MainScreen */,
+				87F4420525A5DB2E00D6C927 /* CurrencyConvertor */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -111,8 +143,50 @@
 		875D996B25A529BE00D75686 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				87F4421425A5E70200D6C927 /* CurrencyRateModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		87F4420525A5DB2E00D6C927 /* CurrencyConvertor */ = {
+			isa = PBXGroup;
+			children = (
+				87F4420225A5DB2300D6C927 /* CurrencyConvertorVC.swift */,
+			);
+			path = CurrencyConvertor;
+			sourceTree = "<group>";
+		};
+		87F4420E25A5E52100D6C927 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87F4420B25A5E51D00D6C927 /* APIManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87F4424725A5EE8600D6C927 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				87F4421725A5E8C500D6C927 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		87F4424C25A5F24B00D6C927 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87F4424925A5F24000D6C927 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6AEF4A50B13ED8854321898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07EFEBA36695DDF9FD5BFC03 /* Pods-SWENSONChallenge.debug.xcconfig */,
+				52204A3A8EB0FA15A1E6E590 /* Pods-SWENSONChallenge.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875D995F25A51B4200D75686 /* Build configuration list for PBXNativeTarget "SWENSONChallenge" */;
 			buildPhases = (
+				2ABA4DAC375F0435A3B7D115 /* [CP] Check Pods Manifest.lock */,
 				875D994725A51B3100D75686 /* Sources */,
 				875D994825A51B3100D75686 /* Frameworks */,
 				875D994925A51B3100D75686 /* Resources */,
+				A3CF0BF6DE3593F9C0547EEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F4421225A5E55400D6C927 /* CurrencyStoryboard.storyboard in Resources */,
 				875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */,
 				875D995825A51B4200D75686 /* Assets.xcassets in Resources */,
 				875D995625A51B3100D75686 /* Main.storyboard in Resources */,
@@ -180,6 +257,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ABA4DAC375F0435A3B7D115 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWENSONChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CF0BF6DE3593F9C0547EEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		875D994725A51B3100D75686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -187,7 +306,12 @@
 			files = (
 				875D995325A51B3100D75686 /* ViewController.swift in Sources */,
 				875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */,
+				87F4421525A5E70200D6C927 /* CurrencyRateModel.swift in Sources */,
+				87F4420C25A5E51D00D6C927 /* APIManager.swift in Sources */,
+				87F4421825A5E8C500D6C927 /* Constants.swift in Sources */,
+				87F4420325A5DB2300D6C927 /* CurrencyConvertorVC.swift in Sources */,
 				875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */,
+				87F4424A25A5F24000D6C927 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,11 +455,12 @@
 		};
 		875D996025A51B4200D75686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EFEBA36695DDF9FD5BFC03 /* Pods-SWENSONChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SWENSONChallenge/Info.plist;
+				INFOPLIST_FILE = SWENSONChallenge/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,11 +474,12 @@
 		};
 		875D996125A51B4200D75686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52204A3A8EB0FA15A1E6E590 /* Pods-SWENSONChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SWENSONChallenge/Info.plist;
+				INFOPLIST_FILE = SWENSONChallenge/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

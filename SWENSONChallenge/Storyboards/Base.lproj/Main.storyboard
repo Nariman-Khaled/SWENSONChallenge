@@ -16,14 +16,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M8M-nh-xqR">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="M8M-nh-xqR">
                                 <rect key="frame" x="0.0" y="108" width="414" height="754"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-a4-q9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="754"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="377"/>
                                         <state key="normal" title="Anagram Checker "/>
                                         <connections>
                                             <segue destination="dFI-g9-sn6" kind="presentation" id="XdV-QF-gIp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rnz-Ma-bZf">
+                                        <rect key="frame" x="0.0" y="377" width="414" height="377"/>
+                                        <state key="normal" title="Currency Convertor"/>
+                                        <connections>
+                                            <segue destination="Jdr-wV-EuW" kind="show" id="jhC-7P-iwn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -59,6 +66,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OlR-bd-13k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1639" y="72"/>
+        </scene>
+        <!--CurrencyStoryboard-->
+        <scene sceneID="a4P-yT-Nk4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CurrencyStoryboard" id="Jdr-wV-EuW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5qU-Kg-iS1"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ax4-es-ZZ9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1291" y="456"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8v2-4E-1ro">
