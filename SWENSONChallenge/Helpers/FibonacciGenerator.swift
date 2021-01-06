@@ -9,12 +9,13 @@ import Foundation
 
 class FibonacciGenerator {
     
-    static func GenerateFibonacciValueFor(number : Int , UseIterative : Bool = true ) -> Int {
+    static func GenerateFibonacciValueFor(number : Int , UseIterative : Bool = true ) -> (Result :  Int , Message :  String) {
         if number < 91 {
-            return UseIterative ? iterativeFibonacci(number) : recursiveFibonacci(n : number)
+            let result = UseIterative ? iterativeFibonacci(number) : recursiveFibonacci(n : number)
+            return ( result , "")
         }
         else {
-            return 0
+            return (0 , NSLocalizedString("limit exceeded", comment: ""))
         }
     }
 

@@ -10,7 +10,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FibonacciGeneratorVC" customModule="SWENSONChallenge" customModuleProvider="target">
             <connections>
+                <outlet property="btnGenerate" destination="oox-Dn-Q5h" id="e57-Tk-Yhu"/>
+                <outlet property="lblPopStaticText" destination="Nc8-uW-TQN" id="r3b-O4-sfd"/>
+                <outlet property="lblPopupHeader" destination="UIW-hE-NoM" id="NH1-Oh-4Ic"/>
                 <outlet property="lblResult" destination="Fec-my-nD2" id="Ht1-EE-X5S"/>
+                <outlet property="lblStaticResult" destination="kOw-fV-BSz" id="QTN-dF-QZX"/>
+                <outlet property="lblStaticUserInput" destination="dVj-Pp-W9K" id="Gqp-dY-EMh"/>
                 <outlet property="txtUserInput" destination="af1-hy-0ui" id="GyR-qe-NLL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

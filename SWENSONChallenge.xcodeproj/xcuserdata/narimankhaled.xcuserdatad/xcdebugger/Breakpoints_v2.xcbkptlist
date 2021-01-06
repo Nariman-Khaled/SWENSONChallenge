@@ -14,8 +14,8 @@
             filePath = "SWENSONChallenge/ViewControllers/Fibonacci generator/FibonacciGeneratorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "CloseGenerator(_:)"
             landmarkType = "7">
          </BreakpointContent>

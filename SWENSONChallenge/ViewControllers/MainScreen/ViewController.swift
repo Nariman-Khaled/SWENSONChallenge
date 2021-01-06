@@ -22,7 +22,9 @@ class ViewController: UIViewController {
     
     //MARK:- Setup
     func setupViews(){
+        self.title = NSLocalizedString("Main Menu title", comment: "")
         btnGenerator.addTarget(self, action: #selector(ShowGeneratorPopup(_:)), for: .touchUpInside)
+        btnGenerator.setTitle(NSLocalizedString("Fibonacci generator", comment: ""), for: .normal)
     }
     
     

@@ -17,6 +17,7 @@
 		875D997D25A5449C00D75686 /* FibonacciGeneratorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */; };
 		875D998325A54F1100D75686 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D998225A54F1100D75686 /* UIViewControllerExtension.swift */; };
 		875D998F25A559CD00D75686 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D998E25A559CD00D75686 /* FibonacciGenerator.swift */; };
+		87F441FD25A5CA1500D6C927 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87F441FC25A5CA1400D6C927 /* Localizable.strings */; };
 		FF40E71C4DD08F1CACE01633 /* Pods_SWENSONChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B4ECCE97A7E086CFE7828 /* Pods_SWENSONChallenge.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FibonacciGeneratorVC.xib; sourceTree = "<group>"; };
 		875D998225A54F1100D75686 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		875D998E25A559CD00D75686 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciGenerator.swift; sourceTree = "<group>"; };
+		87F441FC25A5CA1400D6C927 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		C52B4ECCE97A7E086CFE7828 /* Pods_SWENSONChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWENSONChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 			children = (
 				875D995725A51B4200D75686 /* Assets.xcassets */,
 				875D995C25A51B4200D75686 /* Info.plist */,
+				87F441FC25A5CA1400D6C927 /* Localizable.strings */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F441FD25A5CA1500D6C927 /* Localizable.strings in Resources */,
 				875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */,
 				875D995825A51B4200D75686 /* Assets.xcassets in Resources */,
 				875D995625A51B3100D75686 /* Main.storyboard in Resources */,
