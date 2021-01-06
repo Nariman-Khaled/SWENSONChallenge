@@ -14,6 +14,7 @@
 		875D995625A51B3100D75686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995425A51B3100D75686 /* Main.storyboard */; };
 		875D995825A51B4200D75686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D995725A51B4200D75686 /* Assets.xcassets */; };
 		875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995925A51B4200D75686 /* LaunchScreen.storyboard */; };
+
 		87BB1F7825A5F9730084DDBF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87BB1F7725A5F9730084DDBF /* Localizable.strings */; };
 		87BB1F8025A601D90084DDBF /* CurrencyConvertorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BB1F7F25A601D90084DDBF /* CurrencyConvertorViewModel.swift */; };
 		87BB1F8C25A60A420084DDBF /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BB1F8B25A60A420084DDBF /* RateCell.swift */; };
@@ -29,6 +30,10 @@
 		87F4421525A5E70200D6C927 /* CurrencyRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4421425A5E70200D6C927 /* CurrencyRateModel.swift */; };
 		87F4421825A5E8C500D6C927 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4421725A5E8C500D6C927 /* Constants.swift */; };
 		87F4424A25A5F24000D6C927 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F4424925A5F24000D6C927 /* UIImageExtension.swift */; };
+
+		875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */; };
+		875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D997225A52EBF00D75686 /* AnagramChecker.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,7 @@
 		875D995725A51B4200D75686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875D995A25A51B4200D75686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875D995C25A51B4200D75686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		87BB1F7725A5F9730084DDBF /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		87BB1F7F25A601D90084DDBF /* CurrencyConvertorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConvertorViewModel.swift; sourceTree = "<group>"; };
 		87BB1F8B25A60A420084DDBF /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
@@ -58,6 +64,10 @@
 		87F4421725A5E8C500D6C927 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = SWENSONChallenge/Common/Constants.swift; sourceTree = SOURCE_ROOT; };
 		87F4424925A5F24000D6C927 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		D167D5483A58F930D231CFA0 /* Pods_SWENSONChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWENSONChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramCheckerVC.swift; sourceTree = "<group>"; };
+		875D997225A52EBF00D75686 /* AnagramChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramChecker.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +148,7 @@
 		875D996725A528DC00D75686 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				875D996C25A52B8800D75686 /* Anagram Checker */,
 				875D996925A529A500D75686 /* MainScreen */,
 				87F4420525A5DB2E00D6C927 /* CurrencyConvertor */,
 			);
@@ -170,6 +181,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+
 		87BB1F8225A601E10084DDBF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,8 +203,17 @@
 			isa = PBXGroup;
 			children = (
 				87BB1F9725A61EEF0084DDBF /* IsoCountriesHelpers */,
+				875D997225A52EBF00D75686 /* AnagramChecker.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+    875D996C25A52B8800D75686 /* Anagram Checker */ = {
+			isa = PBXGroup;
+			children = (
+				875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */,
+			);
+			path = "Anagram Checker";
 			sourceTree = "<group>";
 		};
 		87BB1F9725A61EEF0084DDBF /* IsoCountriesHelpers */ = {
@@ -368,6 +389,7 @@
 				875D995325A51B3100D75686 /* ViewController.swift in Sources */,
 				87BB1F8C25A60A420084DDBF /* RateCell.swift in Sources */,
 				875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */,
+
 				87F4421525A5E70200D6C927 /* CurrencyRateModel.swift in Sources */,
 				87F4420C25A5E51D00D6C927 /* APIManager.swift in Sources */,
 				87BB1F9125A60C8B0084DDBF /* CurrencyCalculatorVC.swift in Sources */,
@@ -376,6 +398,10 @@
 				87F4420325A5DB2300D6C927 /* CurrencyConvertorVC.swift in Sources */,
 				87BB1FA825A62E210084DDBF /* BaseCurrencySelectionVC.swift in Sources */,
 				87BB1F9B25A61EEF0084DDBF /* IsoCountryCodes.swift in Sources */,
+
+				875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */,
+				875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */,
+
 				875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */,
 				87F4424A25A5F24000D6C927 /* UIImageExtension.swift in Sources */,
 				87BB1F8025A601D90084DDBF /* CurrencyConvertorViewModel.swift in Sources */,
