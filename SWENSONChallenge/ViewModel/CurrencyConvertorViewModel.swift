@@ -36,7 +36,34 @@ class CurrencyConvertorViewModel {
         return (baseCurrencyCode , baseFlag)
     }
     
+    func setupBaseController(name : String){
+        currRateModel?.base = name
+    }
     
+    var availableBaseCurrencies : [rates]{
+       
+         let baseCurrencyCode = Constants.InitialInfo.InitialBaseCurrency
+            var baseFlag : UIImage?
+            let baseCountryInfo = IsoCountryCodes.searchByCurrency(baseCurrencyCode).first
+            if let flag = Flag(countryCode: baseCountryInfo?.alpha2 ?? "" ) {
+                baseFlag = flag.image(style: .roundedRect)
+            }
+        let EUR = rates(code: baseCurrencyCode, rateValue: nil, flag: baseFlag)
+        
+        
+        let USDCurrencyCode = Constants.InitialInfo.USDBaseCurrency
+           var USDFlag : UIImage?
+           let USDCountryInfo = IsoCountryCodes.searchByCurrency(USDCurrencyCode).first
+           if let flag = Flag(countryCode: USDCountryInfo?.alpha2 ?? "" ) {
+            USDFlag = flag.image(style: .roundedRect)
+           }
+       let USD = rates(code: USDCurrencyCode, rateValue: nil, flag: USDFlag)
+       
+        
+        
+            return [EUR , USD]
+        
+    }
     
   private func getRates() {
         let ratesDic = currRateModel?.rates ?? [:]
@@ -50,16 +77,23 @@ class CurrencyConvertorViewModel {
         }
     }
     
-    func loadData(completion : @escaping (Bool)->()){
-        APIManager.LoadBaseCurrencyRates(base : self.baseCurrencyInfo.code) {[weak self] result , error in
+    func loadData(completion : @escaping (String , Bool)->()){
+        APIManager.LoadBaseCurrencyRates(base : self.baseCurrencyInfo.code) {[weak self] ratesResult , ratesErrorResult, error in
             print ("Done")
-            if result != nil {
-                self?.currRateModel = result
+            if ratesResult != nil {
+                self?.currRateModel = ratesResult
                 self?.getRates()
-                completion(true)
+                completion("" , true)
             }
+            
             else{
-                completion(false)
+                if let errorMessage =  ratesErrorResult?.error.type {
+                    completion( errorMessage , false)
+                }
+                else{
+                    completion("" , false)
+                }
+                
             }
             
         }

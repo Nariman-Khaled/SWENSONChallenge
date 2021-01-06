@@ -27,13 +27,14 @@ class CurrencyConvertorVC: UIViewController {
         
         // Do any additional setup after loading the view.
         
-        loadData()
+       
        
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setupViews()
+        loadData()
     }
     
     //MARK:- Setup
@@ -64,15 +65,35 @@ class CurrencyConvertorVC: UIViewController {
     func loadData(){
         let loadingView = FSnapChatLoadingView()
          loadingView.show(view: self.view, color: UIColor.PrimaryOceanColor)
-        currencyViewModel.loadData(completion: { [weak self](loaded) in
+        currencyViewModel.loadData(completion: { [weak self]( message ,  loaded) in
             if loaded == true {
+                loadingView.hide()
+                self?.tbvRates.isHidden = false
                 self?.tbvRates.reloadData()
             }
-            loadingView.hide()
+            else{
+                loadingView.hide()
+                self?.tbvRates.isHidden = true
+                if message.isEmpty == false {
+                    // show alert with message
+                }
+            }
 
 
         })
     }
+    
+    //MARK:- IBActions
+    
+    @IBAction func ChangeBaseCurrency(_ sender: Any) {
+        
+        if   let selectionVC = self.storyboard?.instantiateViewController(identifier: Constants.StoryBoardId.BaseCurrencySelection) as? BaseCurrencySelectionVC {
+            selectionVC.currencyViewModel = currencyViewModel
+          //  self.present(selectionVC, animated: true, completion: nil)
+            self.navigationController?.pushViewController(selectionVC, animated: true)
+        }
+    }
+    
 }
 
 extension CurrencyConvertorVC : UITableViewDelegate , UITableViewDataSource {

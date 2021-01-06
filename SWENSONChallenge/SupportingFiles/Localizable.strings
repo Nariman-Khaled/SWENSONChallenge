@@ -8,3 +8,6 @@
 
 //Calculator screen
 "Header" = "Convert Currency";
+
+//base selection screen
+"base selection header" = "select base currency";

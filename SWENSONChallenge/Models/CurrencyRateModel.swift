@@ -11,6 +11,16 @@ import Foundation
 struct CurrencyRateModel : Codable {
     let success: Bool
     let timestamp: Int
-    let base, date: String
+    var base, date: String
     let rates: [String: Double]
+}
+
+struct CurrencyRateErrorModel : Codable {
+    let success: Bool
+        let error: CurrencyError
+}
+
+struct CurrencyError: Codable {
+    let code: Int
+    let type: String
 }

@@ -11,23 +11,34 @@ import Alamofire
 
 class APIManager {
     
-    class func LoadBaseCurrencyRates(base : String , completion : @escaping( (CurrencyRateModel? , Error?)->())) {
+    class func LoadBaseCurrencyRates(base : String , completion : @escaping( (CurrencyRateModel? ,CurrencyRateErrorModel? , Error?)->())) {
         
-        let URL = Constants.FixerConfigurations.Fixer_baseURL + Constants.endPoints.latestRates + "?access_key="+Constants.FixerConfigurations.access_key
+        let baseURL = Constants.FixerConfigurations.Fixer_baseURL + Constants.endPoints.latestRates
+        let accessTokenParamter =  "\(Constants.queryParamters.accessKey)=\(Constants.FixerConfigurations.access_key)"
+        let baseParamter = "\(Constants.queryParamters.baseCurrency)=\(base)"
         
-        AF.request(URL).responseData { response in
+        let finalURL = "\(baseURL)?\(accessTokenParamter)&\(baseParamter)"
+        
+        
+        AF.request(finalURL).responseData { response in
             debugPrint(response)
             if let data =  response.data {
                 do{
                     
-                    completion(try JSONDecoder().decode(CurrencyRateModel.self, from: data) ,nil)
+                    completion(try JSONDecoder().decode(CurrencyRateModel.self, from: data),nil ,nil)
                 }
                 catch {
-                    completion( nil, error)
+                    do{
+                        
+                        completion(nil ,  try JSONDecoder().decode(CurrencyRateErrorModel.self, from: data) ,nil)
+                    }
+                    catch {
+                        completion(nil , nil , error)
+                    }
                 }
             }else {
                 
-                completion(nil , nil)
+                completion(nil , nil , nil)
             }
         }
         
