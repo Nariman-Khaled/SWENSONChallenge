@@ -11,3 +11,27 @@
 
 //base selection screen
 "base selection header" = "select base currency";
+
+//Main Screen
+"Main Menu title" = "Main Menu";
+"Fibonacci generator" = "Fibonacci generator";
+
+
+//Generator Screen
+"Header" = "Fibonacci Generator" ;
+"static text" = "CALCULATE THE NTH VALUE " ;
+"user input title" = "F(N) FOR N= ";
+"Generate" = "Generate";
+"Result" = "Result";
+"Required input" = "Input field can't be empty";
+
+//Error Messages
+"limit exceeded" = "input number can't exceed 91";
+
+
+//Common
+"Error" = "Error";
+"btn_OK" = "Ok";
+"btn_cancel" = "Cancel";
+"btn_ignore" = "Ignore";
+"btn_Gotit" = "Got it";
