@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.4.0)
+  - FlagKit (2.2)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - FlagKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FlagKit
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
 
-PODFILE CHECKSUM: 206d3c37168bed01d731defb8d6a4361cc863b30
+PODFILE CHECKSUM: 7359d36cfc139bee7d2393d11618a8f0d0d342ea
 
 COCOAPODS: 1.10.0

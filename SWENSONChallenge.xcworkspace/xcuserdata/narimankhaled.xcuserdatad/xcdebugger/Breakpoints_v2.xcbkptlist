@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B28F7E0C-159A-4606-BC72-F64277EFBD9A"
+            uuid = "19DA0C51-234E-432A-83BC-EA8AD67CE563"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+            filePath = "Pods/FlagKit/Sources/Swift/FlagKit/Flag.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "init(countryCode:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
