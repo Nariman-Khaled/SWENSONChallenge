@@ -11,7 +11,7 @@ import Alamofire
 
 class APIManager {
     
-    class func LoadBaseCurrencyRates(base : String , completion : @escaping( (CurrencyConvertorViewModel? , Error?)->())) {
+    class func LoadBaseCurrencyRates(base : String , completion : @escaping( (CurrencyRateModel? , Error?)->())) {
         
         let URL = Constants.FixerConfigurations.Fixer_baseURL + Constants.endPoints.latestRates + "?access_key="+Constants.FixerConfigurations.access_key
         
@@ -19,9 +19,8 @@ class APIManager {
             debugPrint(response)
             if let data =  response.data {
                 do{
-                    let rateModel = try JSONDecoder().decode(CurrencyRateModel.self, from: data)
-                    let currVM = CurrencyConvertorViewModel(rateModel: rateModel)
-                    completion(currVM ,nil)
+                    
+                    completion(try JSONDecoder().decode(CurrencyRateModel.self, from: data) ,nil)
                 }
                 catch {
                     completion( nil, error)

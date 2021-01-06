@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FSnapChatLoading/FSnapChatLoading.framework
 ${BUILT_PRODUCTS_DIR}/FlagKit/FlagKit.framework

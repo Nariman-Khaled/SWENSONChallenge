@@ -7,16 +7,176 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "19DA0C51-234E-432A-83BC-EA8AD67CE563"
+            uuid = "12FB15FC-E958-478F-B43F-9F44A0684B41"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/FlagKit/Sources/Swift/FlagKit/Flag.swift"
+            filePath = "SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyCalculatorVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "init(countryCode:)"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B47ED8F-CA6B-45D1-82E7-F2AEF5379ABB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B1F3D02-A202-4CB3-B610-72E547580BC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4B8AD75-6AD8-4F74-A2E2-780C2F15F3B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4B8AD75-6AD8-4F74-A2E2-780C2F15F3B9 - d0bb5cfc1deec298"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWENSONChallenge.CurrencyConvertorVC.loadData() -&gt; ()"
+                  moduleName = "SWENSONChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narimankhaled/Documents/Nariman&apos;s./SwesonHe/SWENSONChallenge/SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "22">
+               </Location>
+               <Location
+                  uuid = "A4B8AD75-6AD8-4F74-A2E2-780C2F15F3B9 - f3150be6db2877fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in SWENSONChallenge.CurrencyConvertorVC.loadData() -&gt; ()"
+                  moduleName = "SWENSONChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narimankhaled/Documents/Nariman&apos;s./SwesonHe/SWENSONChallenge/SWENSONChallenge/ViewControllers/CurrencyConvertor/CurrencyConvertorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C81125D-482F-443C-9034-BF77843D938D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewModel/CurrencyConvertorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "loadData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C81125D-482F-443C-9034-BF77843D938D - c321b3f2acf1774f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SWENSONChallenge.CurrencyConvertorViewModel.loadData(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "SWENSONChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narimankhaled/Documents/Nariman&apos;s./SwesonHe/SWENSONChallenge/SWENSONChallenge/ViewModel/CurrencyConvertorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "6C81125D-482F-443C-9034-BF77843D938D - 6aef597377e4d57b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;SWENSONChallenge.CurrencyRateModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SWENSONChallenge.CurrencyConvertorViewModel.loadData(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "SWENSONChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/narimankhaled/Documents/Nariman&apos;s./SwesonHe/SWENSONChallenge/SWENSONChallenge/ViewModel/CurrencyConvertorViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DB416F1-4139-41BC-93D0-5BA9FE5C21E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewModel/CurrencyConvertorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "loadData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E29C0112-C414-4856-87DA-7B4DAA5BD2C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SWENSONChallenge/ViewModel/CurrencyConvertorViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getRates()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

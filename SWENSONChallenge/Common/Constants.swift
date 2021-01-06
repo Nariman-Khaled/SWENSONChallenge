@@ -14,4 +14,17 @@ struct Constants {
     struct endPoints {
         static let latestRates = "latest"
     }
+    
+    struct StoryBoardId {
+        static let CurrencyCalculator = "CurrencyCalculatorVC"
+    }
+    
+    struct CellsIdentifiers {
+        static let ratesCell = "rateCell"
+    }
+    
+    struct InitialInfo {
+        static let InitialBaseCurrency = "EUR"
+    }
+    
 }

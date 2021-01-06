@@ -8,5 +8,6 @@ target 'SWENSONChallenge' do
   # Pods for SWENSONChallenge
   pod 'Alamofire', '~> 5.2'
   pod 'FlagKit'
+  pod 'FSnapChatLoading'
 end
 
