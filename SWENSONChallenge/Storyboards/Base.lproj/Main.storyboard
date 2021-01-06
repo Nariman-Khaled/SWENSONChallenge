@@ -21,10 +21,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYJ-a4-q9b">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="754"/>
-                                        <state key="normal" title="Anagram Checker "/>
-                                        <connections>
-                                            <segue destination="dFI-g9-sn6" kind="presentation" id="XdV-QF-gIp"/>
-                                        </connections>
+                                        <state key="normal" title="Fibonacci generator"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -39,11 +36,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main Menu" largeTitleDisplayMode="always" id="bhj-k0-zLT"/>
+                    <connections>
+                        <outlet property="btnGenerator" destination="jYJ-a4-q9b" id="7UC-Qq-HRX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="918.84057971014499" y="71.651785714285708"/>
         </scene>
+
         <!--Anagram CheckerVC-->
         <scene sceneID="lOg-wC-fXG">
             <objects>
@@ -153,6 +154,7 @@
             </objects>
             <point key="canvasLocation" x="1639" y="72"/>
         </scene>
+
         <!--Navigation Controller-->
         <scene sceneID="8v2-4E-1ro">
             <objects>

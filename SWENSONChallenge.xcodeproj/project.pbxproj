@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,22 @@
 		875D995625A51B3100D75686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995425A51B3100D75686 /* Main.storyboard */; };
 		875D995825A51B4200D75686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875D995725A51B4200D75686 /* Assets.xcassets */; };
 		875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875D995925A51B4200D75686 /* LaunchScreen.storyboard */; };
+
+		875D997C25A5449C00D75686 /* FibonacciGeneratorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */; };
+		875D997D25A5449C00D75686 /* FibonacciGeneratorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */; };
+		875D998325A54F1100D75686 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D998225A54F1100D75686 /* UIViewControllerExtension.swift */; };
+		875D998F25A559CD00D75686 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D998E25A559CD00D75686 /* FibonacciGenerator.swift */; };
+		87F441FD25A5CA1500D6C927 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87F441FC25A5CA1400D6C927 /* Localizable.strings */; };
+		FF40E71C4DD08F1CACE01633 /* Pods_SWENSONChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52B4ECCE97A7E086CFE7828 /* Pods_SWENSONChallenge.framework */; };
+
 		875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */; };
 		875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875D997225A52EBF00D75686 /* AnagramChecker.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10EE1ECD2C23BDBA2DEF5935 /* Pods-SWENSONChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWENSONChallenge.debug.xcconfig"; path = "Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		334AB6B2BB104FB8C37F4AC9 /* Pods-SWENSONChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWENSONChallenge.release.xcconfig"; path = "Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		875D994B25A51B3100D75686 /* SWENSONChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWENSONChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875D994E25A51B3100D75686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875D995025A51B3100D75686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +37,17 @@
 		875D995725A51B4200D75686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875D995A25A51B4200D75686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875D995C25A51B4200D75686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciGeneratorVC.swift; sourceTree = "<group>"; };
+		875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FibonacciGeneratorVC.xib; sourceTree = "<group>"; };
+		875D998225A54F1100D75686 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		875D998E25A559CD00D75686 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciGenerator.swift; sourceTree = "<group>"; };
+		87F441FC25A5CA1400D6C927 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C52B4ECCE97A7E086CFE7828 /* Pods_SWENSONChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWENSONChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+
 		875D996D25A52BD500D75686 /* AnagramCheckerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramCheckerVC.swift; sourceTree = "<group>"; };
 		875D997225A52EBF00D75686 /* AnagramChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramChecker.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF40E71C4DD08F1CACE01633 /* Pods_SWENSONChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84D12A54416046E28F047358 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10EE1ECD2C23BDBA2DEF5935 /* Pods-SWENSONChallenge.debug.xcconfig */,
+				334AB6B2BB104FB8C37F4AC9 /* Pods-SWENSONChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		875D994225A51B3100D75686 = {
 			isa = PBXGroup;
 			children = (
 				875D994D25A51B3100D75686 /* SWENSONChallenge */,
 				875D994C25A51B3100D75686 /* Products */,
+				84D12A54416046E28F047358 /* Pods */,
+				E29638B98BA89C5A0C46014B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +92,17 @@
 		875D994D25A51B3100D75686 /* SWENSONChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				875D998125A54EE300D75686 /* extenstions */,
+				875D997825A5442800D75686 /* Xibs */,
+
 				875D997125A52D2200D75686 /* Helpers */,
+
 				875D996B25A529BE00D75686 /* Models */,
 				875D996525A528D200D75686 /* Delegates */,
 				875D996725A528DC00D75686 /* ViewControllers */,
 				875D996325A528C000D75686 /* Storyboards */,
 				875D996825A528E900D75686 /* SupportingFiles */,
+				875D999125A559D200D75686 /* Helpers */,
 			);
 			path = SWENSONChallenge;
 			sourceTree = "<group>";
@@ -91,7 +128,11 @@
 		875D996725A528DC00D75686 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+
+				875D997925A5443300D75686 /* Fibonacci generator */,
+
 				875D996C25A52B8800D75686 /* Anagram Checker */,
+
 				875D996925A529A500D75686 /* MainScreen */,
 			);
 			path = ViewControllers;
@@ -102,6 +143,7 @@
 			children = (
 				875D995725A51B4200D75686 /* Assets.xcassets */,
 				875D995C25A51B4200D75686 /* Info.plist */,
+				87F441FC25A5CA1400D6C927 /* Localizable.strings */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -121,6 +163,36 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+
+		875D997825A5442800D75686 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				875D997B25A5449C00D75686 /* FibonacciGeneratorVC.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		875D997925A5443300D75686 /* Fibonacci generator */ = {
+			isa = PBXGroup;
+			children = (
+				875D997A25A5449C00D75686 /* FibonacciGeneratorVC.swift */,
+			);
+			path = "Fibonacci generator";
+			sourceTree = "<group>";
+		};
+		875D998125A54EE300D75686 /* extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				875D998225A54F1100D75686 /* UIViewControllerExtension.swift */,
+			);
+			path = extenstions;
+			sourceTree = "<group>";
+		};
+		875D999125A559D200D75686 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				875D998E25A559CD00D75686 /* FibonacciGenerator.swift */,
+
 		875D996C25A52B8800D75686 /* Anagram Checker */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,10 +205,21 @@
 			isa = PBXGroup;
 			children = (
 				875D997225A52EBF00D75686 /* AnagramChecker.swift */,
+
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+
+		E29638B98BA89C5A0C46014B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C52B4ECCE97A7E086CFE7828 /* Pods_SWENSONChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875D995F25A51B4200D75686 /* Build configuration list for PBXNativeTarget "SWENSONChallenge" */;
 			buildPhases = (
+				DF3263EA2E1DAE77DC5949AF /* [CP] Check Pods Manifest.lock */,
 				875D994725A51B3100D75686 /* Sources */,
 				875D994825A51B3100D75686 /* Frameworks */,
 				875D994925A51B3100D75686 /* Resources */,
+				03D2D29490100901063D84BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,13 +279,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F441FD25A5CA1500D6C927 /* Localizable.strings in Resources */,
 				875D995B25A51B4200D75686 /* LaunchScreen.storyboard in Resources */,
 				875D995825A51B4200D75686 /* Assets.xcassets in Resources */,
 				875D995625A51B3100D75686 /* Main.storyboard in Resources */,
+				875D997D25A5449C00D75686 /* FibonacciGeneratorVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D2D29490100901063D84BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWENSONChallenge/Pods-SWENSONChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3263EA2E1DAE77DC5949AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWENSONChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		875D994725A51B3100D75686 /* Sources */ = {
@@ -209,9 +338,15 @@
 			files = (
 				875D995325A51B3100D75686 /* ViewController.swift in Sources */,
 				875D994F25A51B3100D75686 /* AppDelegate.swift in Sources */,
+
+				875D998F25A559CD00D75686 /* FibonacciGenerator.swift in Sources */,
+				875D998325A54F1100D75686 /* UIViewControllerExtension.swift in Sources */,
+
 				875D996E25A52BD500D75686 /* AnagramCheckerVC.swift in Sources */,
 				875D997325A52EBF00D75686 /* AnagramChecker.swift in Sources */,
+
 				875D995125A51B3100D75686 /* SceneDelegate.swift in Sources */,
+				875D997C25A5449C00D75686 /* FibonacciGeneratorVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +490,7 @@
 		};
 		875D996025A51B4200D75686 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EE1ECD2C23BDBA2DEF5935 /* Pods-SWENSONChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,6 +509,7 @@
 		};
 		875D996125A51B4200D75686 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334AB6B2BB104FB8C37F4AC9 /* Pods-SWENSONChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
